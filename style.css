@@ -1,66 +1,53 @@
-.left {
-    float: left;
-}
-
-#highScore {
-    border: none;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    padding: 10px 16px 10px 16px;
-    font-size: 17px;
-    font-family: 'Anton', sans-serif;
-    margin: 4px;
-}
-
-.right {
-    float: right;
-    font-family: 'Anton' , sans-serif;
-}
-
-#navbar {
-    display: block;
-    background-color: black;
-    display: inline-block;
-    width: 100%;
-    color: white;
-    border: 3px solid white;
-    border-radius: 5px;
-    margin: auto;
-}
-
 body {
     font-family: 'Anton', sans-serif;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container {
     text-align: center;
-    margin-top: 100px;
-    margin-right: auto;
-    position: relative;
-    width: 100%;
-    height: auto;
+    background-color: maroon;
+    height: 100%;
+}
+.game-box{
+    background: #eeeeee;
     -webkit-box-shadow: 6px 5px 7px -4px rgba(0, 0, 0, 0.7);
     box-shadow: 10px 8px 10px -1px rgba(0, 0, 0, 0.7);
     border-radius: 40px;
 }
-
-
-#start {
-
-   
-    border: none;
+#info {
+ font-family: 'Montserrat', sans-serif;
+}
+.answer-item{
+    background: rgb(223, 201, 7);
+    width: 90%;
+    display: inline-block;
+    border-radius:8px;
+    padding: 3px;
+}
+.text-primary{
+    color: black !important;
+}
+.text-info{
+    color: black !important;
+    font-family: 'Anton' , sans-serif;
+}
+.btn-primary:hover {
+    background-color: lightgray;
+    
+}
+.btn-primary {
+    color: #fff;
     background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 10px 16px 10px 16px;
-    font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    margin-bottom: 100px;
+    border-color: white;
+}
+#btn-start{
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background: black;
+    font:bold 40px;
+	color:#fff;
+}
+#code-title{
     text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+#scoresArea h1 {
+    font-family: 'Anton' , sans-serif;
 }
