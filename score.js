@@ -24,4 +24,17 @@ function displayScores() {
 
 displayScores();
 
+// Setting the button to rest the quiz and clear local storage 
+
+backBtn.addEventListener("click", function () {
+    location.href = "index.html";
+});
+
+clearBtn.addEventListener("click", function () {
+    highScoresArea.innerHTML = "";
+    window.localStorage.clear();
+
+});
+
+
 
