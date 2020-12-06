@@ -21,7 +21,7 @@ var storedScores = JSON.parse(localStorage.getItem("userData"));
 
 var questions = [
     {
-        title: "Whic one of these are not a commonly used data type? ",
+        title: "Which one of these are not a commonly used data type? ",
         choices: ["Strings","Booleance","Alerts", "Numbers"],
         answer : "Alerts"    
     },
